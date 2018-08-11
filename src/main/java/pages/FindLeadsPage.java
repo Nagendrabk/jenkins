@@ -9,7 +9,6 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 import extenthtmlreporter.Annotationsnew3;
-import wdMethods.Annotations;
 import wdMethods.Annotationsnew;
 import wdMethods.SeMethods;
 
