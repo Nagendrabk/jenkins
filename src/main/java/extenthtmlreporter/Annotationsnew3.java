@@ -74,13 +74,6 @@ public Object[][] getData() throws IOException {
 
 	// This method create entry for every step
 	public void reportStep(String desc,String status) {
-		if (status.equalsIgnoreCase("pass")) {
-			test.pass(desc);
-		} else if (status.equalsIgnoreCase("fail")) {
-			test.fail(desc);
-		}else if (status.equalsIgnoreCase("warning")) {
-			test.warning(desc);
-		}
 	}
 
 	// This method create the html report finally
