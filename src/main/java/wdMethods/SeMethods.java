@@ -26,7 +26,7 @@ public class SeMethods implements WdMethods {
 	public void startApp(String browser, String url) {
 		try {
 			if (browser.equalsIgnoreCase("chrome")) {
-				System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
 				driver = new ChromeDriver();
 			} else if (browser.equalsIgnoreCase("firefox")) {
 				System.setProperty("webdriver.gecko.driver", "./drivers/geckoriver.exe");
