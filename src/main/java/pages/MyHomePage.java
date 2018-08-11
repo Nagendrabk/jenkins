@@ -14,9 +14,6 @@ public class MyHomePage extends Annotationsnew3{
 
 	}
 	
-	@FindBy(xpath = "//a[text()='Contacts']")
-	WebElement eleContact;
-	
 	@FindBy(xpath = "//a[text()='Leads']")
 	WebElement eleLeads;
 	
@@ -25,11 +22,6 @@ public class MyHomePage extends Annotationsnew3{
 		click(eleLeads);
 		reportStep("Leads has been cicked Successfully", "pass");
 		return new MyLeadsPage();
-	}
-	public MyContactsPage clickContacts() {
-		click(eleContact);
-		reportStep("Contacts has been cicked Successfully", "pass");
-		return new MyContactsPage();
 	}
 	
 }
