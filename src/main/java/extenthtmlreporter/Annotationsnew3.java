@@ -17,7 +17,8 @@ import wdMethods.SeMethods;
 
 public class Annotationsnew3 extends SeMethods {
 	public String excelFileName, testName, testDesc, category, author, moduleName;
-	ExtentReports extent;
+	public static ExtentReports extent;
+	public static ExtentTest suiteTest ,test;
 
 	@BeforeSuite
 	public void startSuite() {
