@@ -18,7 +18,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class SeMethods extends Reporter implements WdMethods {
+public class SeMethods implements WdMethods {
 
 	public static RemoteWebDriver driver;
 	int i = 1;
