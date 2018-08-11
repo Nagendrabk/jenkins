@@ -78,6 +78,5 @@ public Object[][] getData() throws IOException {
 
 	// This method create the html report finally
 	public void endResult() {
-		extent.flush();
 	}
 }
