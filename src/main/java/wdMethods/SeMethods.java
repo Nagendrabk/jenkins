@@ -18,9 +18,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.Select;
 
-import extenthtmlreporter.ReadExcelDataProvider;
-import extenthtmlreporter.Reporter;
-
 public class SeMethods extends Reporter implements WdMethods {
 
 	public static RemoteWebDriver driver;
